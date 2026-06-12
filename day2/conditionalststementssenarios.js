@@ -124,28 +124,31 @@
 // Allow enrollment into advanced course.
 
 // // Constraints:
-// const studentLoggedIn = true;
-// const prerequisiteCompleted = true;
-// const courseSeatsAvailable = true;
-// const feePaid = false;
+const studentLoggedIn = true;
+const prerequisiteCompleted = true;
+const courseSeatsAvailable = true;
+const feePaid = false;
 
-// if(studentLoggedIn){
-//     if(prerequisiteCompleted){
-//         if(courseSeatsAvailable){
-//             if(feePaid){
-//                 console.log(`Enrollment Successful`);
-//             }else{
-//                 console.log(`Payment is Not Completed`);
-//             }
-//         }else{
-//             console.log(`Seats Are Aot Availabe`);
-//         }
-//     }else{
-//         console.log(`Requirements are not Matched`);
-//     }
-// }else{
-//     console.log(`Invalid StudentID`);
-// }
+if(studentLoggedIn){
+    if(prerequisiteCompleted){
+        if(courseSeatsAvailable){
+            if(feePaid){
+                console.log(`student login successfully.`);
+                console.log(`Pre requisite completed`);
+                console.log(`Course seats are also availabe.`);
+                console.log(`Enrollment Successful`);
+            }else{
+                console.log(`Payment is Not Completed.So Enrollment Failed.`);
+            }
+        }else{
+            console.log(`Seats Are Aot Availabe.So Enrollment Failed.`);
+        }
+    }else{
+        console.log(`Requirements are not Matched.So Enrollment Failed.`);
+    }
+}else{
+    console.log(`Invalid StudentID.So Enrollment Failed.`);
+}
 // Rules:
 // Verify Login.
 // Verify Prerequisite.
@@ -222,7 +225,7 @@ const insuranceVerified = false;
 //         console.log(`Appointment Confirmed.`);
 //         break;
 //     default:
-//         console.log(`Documents are not Valid or details are not matched or insurance is not valid`);
+//         console.log(`Documents are not Valid or details are not matched or insurance is not valid, so you not get appointment`);
 // }   
 
 // Rules:
@@ -238,7 +241,7 @@ const insuranceVerified = false;
 // Scenario 2: Job Application Screening
 
 // Constraints:
-const experienceYears = 6;
+const experienceYears = 5;
 const skillsMatched = true;
 const degreeVerified = true;
 
@@ -250,16 +253,32 @@ const degreeVerified = true;
 // }
 
 // EX2:
-if (experienceYears >= 3){
-    if(skillsMatched){
-        if(degreeVerified){
-            console.log(`Eligible for Interview`);
-        }
-    }
-    
-}else{
-        console.log(`Not Eligible for Interview`);
-    }
+// if (experienceYears >= 3){
+//     if(skillsMatched){
+//         if(degreeVerified){
+//             console.log(`Eligible for Interview.You have a experience and Key skills are matched and Degree Vrifird`);
+//         }else{
+//             console.log(`your degree is not Matched. So, you're not eligible for Interview.`);
+//         }
+//     }else{
+//         console.log(`Key skills are not matched. So, you're not eligible for interview.`);
+//     }
+// }else{
+//         console.log(`Not eligible for interview,.So You Don't have enough experience`);
+//     }
+
+// EX2:
+
+// if(experienceYears >= 3){
+//     console.log(`Experience matched.Moving to next Step for an interview.`);
+// }else if(!skillsMatched){
+//     console.log(`Skills are also Matched.`);
+// }else if(!degreeVerified){
+//     console.log(`Degree Verified`);
+// }else{
+//     console.log(`you are not eligible for this interview. because you dont have enough experience. `)
+// }
+
 
 // Rules:
 // Minimum experience = 3 years.
