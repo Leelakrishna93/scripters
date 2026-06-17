@@ -23,7 +23,7 @@
 // Q: How are functions connected to objects and arrays?
 // A: Functions can read object properties, call object methods, loop through arrays, return arrays, and even be stored inside objects as methods.
 // */
-// ```
+// ``` 
 
 // ## Data types, objects, arrays
 
@@ -89,7 +89,7 @@
 // STEP 5: Call the function using its name.
 
 // IMPORTANT:
-// Function declarations are hoisted, so they can be called before their definition in many cases.
+// Function declarations are raised, so they can be called before their definition in many cases.
 // */
 // ```
 
