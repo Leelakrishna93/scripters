@@ -1,5 +1,5 @@
 // // variable is used store the the property and value or data. 
-// //  it is used to store different values.it store 1 value at atime 
+// //  it is used to store different values.it store 1 value at a time 
 // // and variable has declear in 3 ways:
 // // 1. var keyword
 // // 2. let keyword
@@ -18,14 +18,14 @@
 // console.log(firstName);
 // firstName = "Krishna";
 // console.log(firstName);
-// firstName = "Lethavadla Krishna";
-// console.log(firstName);
-// var firstName = "Lethavadla Leela Krishna";
+// // firstName = "Lethavadla Krishna";
+// // console.log(firstName);
+// var firstName = "Lethavadla Krishna";
 // console.log(firstName);
 
 
 // Let : is a keyword used to declear a variable.
-// // // let has perform only 3 operation to store or retrive data and asiiign data. 
+// // // let has perform only 3 operation to store or retrive data and asign data. 
 // // // It executes Line by Line like interpreter. 
 // // // if is it true then it checks next step other wise it shows an error.
 // // // and it perform only 3 ways to declear variable 
@@ -58,6 +58,8 @@
 // const lastName = "Leela Venkat Krishna"+ " " + "Lethavadla";
 // console.log(lastName);
 // console.log(firstName);
+// firstName ="krishna";
+// console.log(firstName);
 
 
 // // //         VARIABLE NAMING RULES:
@@ -77,7 +79,7 @@
 // // // 5. Avoid JavaScript reserved keywords.
 
 
-// // // // Example:
+// // // // // Example:
 // const firsName = "Leela";
 // const lasttName = "Krishna";
 // const surName = "Lethavadla";
@@ -95,7 +97,7 @@
 //         email,
 //         address,
 //     }
-// )
+// );
 
 
 
@@ -250,253 +252,253 @@
 
 
 
-// // // 3. Array of Objects: it acts as both array and object and it stores multiple objects in a single variable.
-// it is represented with [
-// {}
-// {}
-// {}
-// {}
-// ].
-// most commonly used in data structures.
-// react.js, node.js, APIs,Databases. 
+// // // // 3. Array of Objects: it acts as both array and object and it stores multiple objects in a single variable.
+// // it is represented with [
+// // {}
+// // {}
+// // {}
+// // {}
+// // ].
+// // most commonly used in data structures.
+// // react.js, node.js, APIs,Databases. 
 
 
-// operator:- operators are used to perform mathematical or logical operatons on data, what you stored in a variable.
-//  if you store multiple values in a variable or array or object, it can perform operation on that based on that datatype and operator.
+// // operator:- operators are used to perform mathematical or logical operatons on data, what you stored in a variable.
+// //  if you store multiple values in a variable or array or object, it can perform operation on that based on that datatype and operator.
 
-// comming to arithmetic operator:-
-// arithmetic operator perform mathematical operations on given data.
-// it performs operations on numbers, strings, booleans, null, undefined.
-// there  are 6 types of operators
-// addition:- its represented symbol is +, 
-// and it performs addition operation on number and all , 
-// it can perform operations based on their values and datatype. 
-// some times java script directly converts one data type to another datatype.
-// this data convertion called as type conversion and it is a implicit type conversion.
-// every time deponds on datatypes it converts dynamically by javascript.
-// for example:-
-const num1 = 23;
-const num2 = 34;
-const num3="23";
-const firstName="krishna";
-// console.log(
-//     `
-//     addition=${num2+num3},
-//     addition=${num1+num2},
-//     addition=${num1+num3},
-//     addition=${num3+num2},
-//     addition=${num3+num1},
-//     addition=${num1+num2+num3+${firstName}},
-//     `
-// )
-
-
-// subtraction:- it is represented with -. and it is uded to perform subtraction operation on number and all , 
-// it can perform operations based on their values and datatype. 
-// for example:-
-const num4 = 23;
-const num5 = 34;
-const num6=null;
-// console.log(
-//     `
-//     subtraction=${num5-num6},
-//     subtraction=${num4-num5},
-//     subtraction=${num4-num6},
-//     subtraction=${num6-num5},   
-//     subtraction=${num6-num4},
-//     subtraction=${num4-num5-num6},
-//     `
-// )
-// multiplication: it is represented as *.
-// console.log(
-//     `
-//     multiplication=${num4*num5},
-//     multiplication=${num4*num6},
-//     multiplication=${num5*num6},
-//     multiplication=${num6*num4},
-//     multiplication=${num6*num3},
-//     multiplication=${num3*num4},
-// //     multiplication=${num3*num5},
-// //     multiplication=${num5*num6},
+// // comming to arithmetic operator:-
+// // arithmetic operator perform mathematical operations on given data.
+// // it performs operations on numbers, strings, booleans, null, undefined.
+// // there  are 6 types of operators
+// // addition:- its represented symbol is +, 
+// // and it performs addition operation on number and all , 
+// // it can perform operations based on their values and datatype. 
+// // some times java script directly converts one data type to another datatype.
+// // this data convertion called as type conversion and it is a implicit type conversion.
+// // every time deponds on datatypes it converts dynamically by javascript.
+// // for example:-
+// const num1 = 23;
+// const num2 = 34;
+// const num3="23";
+// const firstName="krishna";
+// // console.log(
+// //     `
+// //     addition=${num2+num3},
+// //     addition=${num1+num2},
+// //     addition=${num1+num3},
+// //     addition=${num3+num2},
+// //     addition=${num3+num1},
+// //     addition=${num1+num2+num3+${firstName}},
 // //     `
 // // )
 
-// // division
-// console.log(
-//     `
-//     division=${num4/num5},
-//     division=${num4/num6},
-//     division=${num5/num6},
-//     division=${num6/num4},
-//     division=${num6/num3},
-//     division=${num3/num4},
-//     division=${num3/num5},
-//     division=${num5/num6},
-//     `
-// )
-// // modulus
-// console.log(
-//     `
-//     modulus=${num4%num5},
-//     modulus=${num4%num6},
-//     modulus=${num5%num6},
-//     modulus=${num6%num4},
-//     modulus=${num6%num3},
-//     modulus=${num3%num4},
-//     modulus=${num3%num5},
-//     modulus=${num5%num6},
-//     `
-// )
-// // exponentiation
-// console.log(
-//     `
-//     exponentiation=${num4**num5},
-//     exponentiation=${num4**num6},
-//     exponentiation=${num5**num6},
-//     exponentiation=${num6**num4},
-//     exponentiation=${num6**num3},
-//     exponentiation=${num3**num4},
-//     exponentiation=${num3**num5},
-//     exponentiation=${num5**num6},
-//     `
-// )
+
+// // subtraction:- it is represented with -. and it is uded to perform subtraction operation on number and all , 
+// // it can perform operations based on their values and datatype. 
+// // for example:-
+// const num4 = 23;
+// const num5 = 34;
+// const num6=null;
+// // console.log(
+// //     `
+// //     subtraction=${num5-num6},
+// //     subtraction=${num4-num5},
+// //     subtraction=${num4-num6},
+// //     subtraction=${num6-num5},   
+// //     subtraction=${num6-num4},
+// //     subtraction=${num4-num5-num6},
+// //     `
+// // )
+// // multiplication: it is represented as *.
+// // console.log(
+// //     `
+// //     multiplication=${num4*num5},
+// //     multiplication=${num4*num6},
+// //     multiplication=${num5*num6},
+// //     multiplication=${num6*num4},
+// //     multiplication=${num6*num3},
+// //     multiplication=${num3*num4},
+// // //     multiplication=${num3*num5},
+// // //     multiplication=${num5*num6},
+// // //     `
+// // // )
+
+// // // division
+// // console.log(
+// //     `
+// //     division=${num4/num5},
+// //     division=${num4/num6},
+// //     division=${num5/num6},
+// //     division=${num6/num4},
+// //     division=${num6/num3},
+// //     division=${num3/num4},
+// //     division=${num3/num5},
+// //     division=${num5/num6},
+// //     `
+// // )
+// // // modulus
+// // console.log(
+// //     `
+// //     modulus=${num4%num5},
+// //     modulus=${num4%num6},
+// //     modulus=${num5%num6},
+// //     modulus=${num6%num4},
+// //     modulus=${num6%num3},
+// //     modulus=${num3%num4},
+// //     modulus=${num3%num5},
+// //     modulus=${num5%num6},
+// //     `
+// // )
+// // // exponentiation
+// // console.log(
+// //     `
+// //     exponentiation=${num4**num5},
+// //     exponentiation=${num4**num6},
+// //     exponentiation=${num5**num6},
+// //     exponentiation=${num6**num4},
+// //     exponentiation=${num6**num3},
+// //     exponentiation=${num3**num4},
+// //     exponentiation=${num3**num5},
+// //     exponentiation=${num5**num6},
+// //     `
+// // )
 
 
-// 2. Assignment operator:-
-// Assignment Operators: =, +=, -=, =, /=, %=, *=.
-// it is used for comparing two values with another operation and it can perform operation on that.
-// for example:-
-//
-// num5 += 200;
+// // 2. Assignment operator:-
+// // Assignment Operators: =, +=, -=, =, /=, %=, *=.
+// // it is used for comparing two values with another operation and it can perform operation on that.
+// // for example:-
+// //
+// // num5 += 200;
 
-//     num5 -= 400;
+// //     num5 -= 400;
 
-//     num5 *= 2;
+// //     num5 *= 2;
 
-//     num5 /= 4;
+// //     num5 /= 4;
 
-//     num5 %= 10;
+// //     num5 %= 10;
 
-//     num5 **= 2;
+// //     num5 **= 2;
 
-//     console.log(num5);
+// //     console.log(num5);
 
-// 3. Comparison operator:-// Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+// // 3. Comparison operator:-// Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
 
-    // const num5 = 100; const num6 = '100';
+//     // const num5 = 100; const num6 = '100';
 
-    // console.log(
-    //     `
-    //         num5 > num4 : ${num5 > num4}
-    //         num5 < num5 : ${num5 < num5}
-    //         num5 >= num5 : ${num5 >= num5}
-    //         num5 <= num4 : ${num5 <= num4}
-    //         num5 == num6 : ${num5 == num6}
-    //         num5 === num2 : ${num5 === num2}
-    //         num5 != num6 : ${num5 != num6}
-    //         num5 !== num5 : ${num5 !== num5}
+//     // console.log(
+//     //     `
+//     //         num5 > num4 : ${num5 > num4}
+//     //         num5 < num5 : ${num5 < num5}
+//     //         num5 >= num5 : ${num5 >= num5}
+//     //         num5 <= num4 : ${num5 <= num4}
+//     //         num5 == num6 : ${num5 == num6}
+//     //         num5 === num2 : ${num5 === num2}
+//     //         num5 != num6 : ${num5 != num6}
+//     //         num5 !== num5 : ${num5 !== num5}
 
-    //     `
-    // );
+//     //     `
+//     // );
     
 
-    // 4. Logical operators:- logical operators are used to combine or combare conditions, based on requirement values.
-    // some logical operators are,
-    //  &&:this symbol called logical And, 
-    // it is like a multiplication the operation in boolean logic. like 0's and 1's.0x0=0, 1x1=0 ,0x1=1, 1x1=1.
-    // 
+//     // 4. Logical operators:- logical operators are used to combine or combare conditions, based on requirement values.
+//     // some logical operators are,
+//     //  &&:this symbol called logical And, 
+//     // it is like a multiplication the operation in boolean logic. like 0's and 1's.0x0=0, 1x1=0 ,0x1=1, 1x1=1.
+//     // 
 
-    //  ||:this symbol called logical Or, 
-    // it is like a addition the operation in boolean logic. like 0's and 1's. 0+1=1 lik ethis
-    // 
+//     //  ||:this symbol called logical Or, 
+//     // it is like a addition the operation in boolean logic. like 0's and 1's. 0+1=1 lik ethis
+//     // 
 
-    //  !:this symbol called logical Not, 
-    // it is like a negation the operation in boolean logic. like 0's and 1's. 
-    // it perform only one operation to compare to apply the logic. like a reverse operation. 
-    // ex: if you give a book to your friend, then your friend will return same book.
-    //  1 is given then we get 1. 0 we give then get 0.
+//     //  !:this symbol called logical Not, 
+//     // it is like a negation the operation in boolean logic. like 0's and 1's. 
+//     // it perform only one operation to compare to apply the logic. like a reverse operation. 
+//     // ex: if you give a book to your friend, then your friend will return same book.
+//     //  1 is given then we get 1. 0 we give then get 0.
 
-    // thelogical && operator writtens true only, when all conditons are true.
-    // some were we has given for better unserstanding the concept to identify by truth table it self.
-    // truth table
-    // 
-    // A            B           A && B              A || B        ! B
-    // TRUE(1)     TRUE(1)      TRUE(1)            TRUE(1)        FALSE(0)
-    // FALSE(0)    TRUE(1)      FALSE(0)           TRUE(1)        TRUE(1)
-    // TRUE(1)     FALSE(0)     FALSE(0)           TRUE(1)        FALSE(0)  
-    // FALSE(0)    FALSE(0)     FALSE(0)           FALSE(0)       TRUE(1) 
-    // we use  ( Bodmas )  rule for better understanding the concept of logical operators.
-    //  these num values i given at top of the scripting program called at arithmetic operators,
-    //  can you see at top and runn all commands by using these values at top.
+//     // thelogical && operator writtens true only, when all conditons are true.
+//     // some were we has given for better unserstanding the concept to identify by truth table it self.
+//     // truth table
+//     // 
+//     // A            B           A && B              A || B        ! B
+//     // TRUE(1)     TRUE(1)      TRUE(1)            TRUE(1)        FALSE(0)
+//     // FALSE(0)    TRUE(1)      FALSE(0)           TRUE(1)        TRUE(1)
+//     // TRUE(1)     FALSE(0)     FALSE(0)           TRUE(1)        FALSE(0)  
+//     // FALSE(0)    FALSE(0)     FALSE(0)           FALSE(0)       TRUE(1) 
+//     // we use  ( Bodmas )  rule for better understanding the concept of logical operators.
+//     //  these num values i given at top of the scripting program called at arithmetic operators,
+//     //  can you see at top and runn all commands by using these values at top.
 
 
-    // 
-    // console.log(num5);
-    // console.log(num6);
-    // console.log(num4);
-    // console.log(num3);
-    // console.log(num2);
-    // // console.log(
-    //     `
-    //     (num5 < num6) && (num5 < num4): ${(num5 < num6) && (num5 < num4) && (num5 < num3) && (num5 < num2)}  
-    //     `
-    // )
-    // first condition:sample Example:-
-    // console.log(
-    //     `
+//     // 
+//     // console.log(num5);
+//     // console.log(num6);
+//     // console.log(num4);
+//     // console.log(num3);
+//     // console.log(num2);
+//     // // console.log(
+//     //     `
+//     //     (num5 < num6) && (num5 < num4): ${(num5 < num6) && (num5 < num4) && (num5 < num3) && (num5 < num2)}  
+//     //     `
+//     // )
+//     // first condition:sample Example:-
+//     // console.log(
+//     //     `
         
-    //     nums:${true && false},
-    //     nums:${true || false},
-    //     nums:${!true}
-    //     `
-    // )
-    // second condition:sample Example:-
-    // console.log(
-    //     `
-    //     num:${true && true || true },
-    //     num:${true && false || false}
-    //     `
-    // )
-    // third condition:sample Example:-
-    // console.log(
-    //     `
-    //     num:${true && false || true && (false && true) (!true)}
-    //     `
-    // )
-    // 
-    // // Bitwise Operators: &, |, ^, ~, <<, >>, >>>
-    // // Ternary Operator: condition ? expression1 : expression2 
-    // // Type Operators: typeof
+//     //     nums:${true && false},
+//     //     nums:${true || false},
+//     //     nums:${!true}
+//     //     `
+//     // )
+//     // second condition:sample Example:-
+//     // console.log(
+//     //     `
+//     //     num:${true && true || true },
+//     //     num:${true && false || false}
+//     //     `
+//     // )
+//     // third condition:sample Example:-
+//     // console.log(
+//     //     `
+//     //     num:${true && false || true && (false && true) (!true)}
+//     //     `
+//     // )
+//     // 
+//     // // Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+//     // // Ternary Operator: condition ? expression1 : expression2 
+//     // // Type Operators: typeof
     
     
-    // Increment and Decrement Operators: ++: it is used to increment the value of a variable by 1, 
-    // --: it is used to decrement the value of a variable by 1.
-    // post and pre:
-    // post: it is used to increment or decrement the value of a variable after the operation is performed.
-    // pre: it is used to increment or decrement the value of a variable before the operation is performed.
+//     // Increment and Decrement Operators: ++: it is used to increment the value of a variable by 1, 
+//     // --: it is used to decrement the value of a variable by 1.
+//     // post and pre:
+//     // post: it is used to increment or decrement the value of a variable after the operation is performed.
+//     // pre: it is used to increment or decrement the value of a variable before the operation is performed.
 
 
-    // // post increment:
-    // let x = 10;
-    // let y =  x ++;
+//     // // post increment:
+//     // let x = 10;
+//     // let y =  x ++;
 
-    // console.log(`Value of x : ${x} and value of y : ${y}`);   
-    // // pre increment:
-    // let z = 10;
-    // let w =  ++z;
+//     // console.log(`Value of x : ${x} and value of y : ${y}`);   
+//     // // pre increment:
+//     // let z = 10;
+//     // let w =  ++z;
 
-    // console.log(`Value of z : ${z} and value of w : ${w}`);   
-    // // Value of z : 11 and value of w : 11
-    // // post decrement:
-    // let a = 10;
-    // let b =  a --;
+//     // console.log(`Value of z : ${z} and value of w : ${w}`);   
+//     // // Value of z : 11 and value of w : 11
+//     // // post decrement:
+//     // let a = 10;
+//     // let b =  a --;
 
-    // console.log(`Value of a : ${a} and value of b : ${b}`);   
-    // // Value of a : 9 and value of b : 9
-    // // pre decrement:
-    // let c = 10;
-    // let d =  --c;
+//     // console.log(`Value of a : ${a} and value of b : ${b}`);   
+//     // // Value of a : 9 and value of b : 9
+//     // // pre decrement:
+//     // let c = 10;
+//     // let d =  --c;
 
-    // console.log(`Value of c : ${c} and value of d : ${d}`);   
-    // Value of c : 9 and value of d : 9 and value of d : 9
+//     // console.log(`Value of c : ${c} and value of d : ${d}`);   
+//     // Value of c : 9 and value of d : 9 and value of d : 9
     

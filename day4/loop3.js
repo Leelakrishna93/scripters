@@ -14,329 +14,329 @@
 // Code
 
 // let rows = 4;
-// let cols = 6;
+// let cols = 9;
 
 // for (let i = 1; i <= rows; i++) {
 
-//     let result = "";
+//     let result1 = "";
 
 //     for (let j = 1; j <= cols; j++) {
-//         result += "* ";
+//         result1 += "* ";
 //     }
 
-//     console.log(result);
+//     console.log(result1);
 // }
 
 
-// ---
+// // ---
 
-// 2. Square Pattern in JavaScript
+// // 2. Square Pattern in JavaScript
 
-// Theory
+// // Theory
 
-// A square pattern contains:
+// // A square pattern contains:
 
-// Equal rows
+// // Equal rows
 
-// Equal columns
+// // Equal columns
 
 
-// Both loops run same number of times.
+// // Both loops run same number of times.
 
-// Code
+// // Code
 
 // let size = 5;
 
 // for (let i = 1; i <= size; i++) {
 
-//     let result = "";
+//     let result2 = "";
 
 //     for (let j = 1; j <= size; j++) {
-//         result += "* ";
+//         result2 += "* ";
 //     }
 
-//     console.log(result);
+//     console.log(result2);
 // }
 
 
-// ---
+// // ---
 
-// 3. Right-Angle Triangle Pattern
+// // 3. Right-Angle Triangle Pattern
 
-// Theory
+// // Theory
 
-// The number of stars increases row by row.
+// // The number of stars increases row by row.
 
-// First row → 1 star
+// // First row → 1 star
 
-// Second row → 2 stars
+// // Second row → 2 stars
 
-// Third row → 3 stars
+// // Third row → 3 stars
 
 
-// Inner loop depends on outer loop.
+// // Inner loop depends on outer loop.
 
-// Code
+// // Code
 
 // let n = 5;
 
 // for (let i = 1; i <= n; i++) {
 
-//     let result = "";
+//     let result3 = "";
 
 //     for (let j = 1; j <= i; j++) {
-//         result += "* ";
+//         result3 += "* ";
 //     }
 
-//     console.log(result);
+//     console.log(result3);
 // }
 
 
-// ---
+// // ---
 
-// 4. Left-Angle Triangle Pattern
+// // 4. Left-Angle Triangle Pattern
 
-// Theory
+// // Theory
 
-// Spaces are printed before stars.
+// // Spaces are printed before stars.
 
-// Spaces decrease
+// // Spaces decrease
 
-// Stars increase
+// // Stars increase
 
 
-// Used for right alignment.
+// // Used for right alignment.
 
-// Code
+// // Code
 
-// let n = 5;
+// let M = 5;
 
-// for (let i = 1; i <= n; i++) {
+// for (let i = 1; i <= M; i++) {
 
-//     let result = "";
+//     let result4 = "";
 
-//     for (let s = 1; s <= n - i; s++) {
-//         result += "  ";
+//     for (let s = 1; s <= M - i; s++) {
+//         result4 += "  ";
 //     }
 
 //     for (let j = 1; j <= i; j++) {
-//         result += "* ";
+//         result4 += "* ";
 //     }
 
-//     console.log(result);
+//     console.log(result4);
 // }
 
 
-// ---
+// // ---
 
-// 5. Circle Pattern in JavaScript
+// // 5. Circle Pattern in JavaScript
 
-// Theory
+// // Theory
 
-// Circle pattern uses mathematical logic.
+// // Circle pattern uses mathematical logic.
 
-// Condition:
+// // Condition:
 
-// i*i + j*j <= radius*radius
+// // i*i + j*j <= radius*radius
 
-// If condition is true:
+// // If condition is true:
 
-// Print star
-
-
-// Else:
-
-// Print space
+// // Print star
 
 
-// Code
+// // Else:
+
+// // Print space
+
+
+// // Code
 
 // let radius = 5;
 
 // for (let i = -radius; i <= radius; i++) {
 
-//     let result = "";
+//     let result5 = "";
 
 //     for (let j = -radius; j <= radius; j++) {
 
 //         if (i*i + j*j <= radius*radius) {
-//             result += "* ";
+//             result5 += "* ";
 //         } else {
-//             result += "  ";
+//             result5 += "  ";
 //         }
 //     }
 
-//     console.log(result);
+//     console.log(result5);
 // }
 
 
-// ---
+// // ---
 
-// 6. String Pattern using "KRISHNA"
+// // 6. String Pattern using "KRISHNA"
 
-// Theory
+// // Theory
 
-// Characters are printed step-by-step using substring().
+// // Characters are printed step-by-step using substring().
 
-// Each loop increases string length.
-
-// Code
-
-// let str = "KRISHNA";
-
-// for (let i = 0; i < str.length; i++) {
-
-//     console.log(str.substring(0, i + 1));
-// }
-
-
-// ---
-
-// 7. Detect Vowels and Replace with *
-
-// Theory
-
-// Check every character:
-
-// If vowel → replace with *
-
-// Else → keep original character
-
-
-// Code
-
-// let str = "LEELA,KRISHNA";
-// let result = "";
-
-// for (let i = 0; i < str.length; i++) {
-
-//     let ch = str[i];
-
-//     if (ch=="A"||ch=="E"||ch=="I"||ch=="O"||ch=="U") {
-//         result += "*";
-//     } else {
-//         result += ch;
-//     }
-// }
-// console.log(result);
-
-
-// ---
-
-// 8. Replace Vowels with Spaces
-
-// Theory
-
-// Vowels are replaced using spaces instead of symbols.
-
-// Code
-
-// let str = "KRISHNA";
-// let result = "";
-
-// for (let i = 0; i < str.length; i++) {
-
-//     let ch = str[i];
-
-//     if ("AEIOUaeiou".includes(ch)) {
-//         result += " ";
-//     } else {
-//         result += ch;
-//     }
-// }
-
-// console.log(result);
-
-
-// ---
-
-// 9. Even and Odd Index Logic
-
-// Theory
-
-// JavaScript indexes start from 0.
-
-// Even index → divisible by 2
-
-// Odd index → not divisible by 2
-
-
-// Code
-
-let str = "KRISHNA";
-
-for (let i = 0; i < str.length; i++) {
-
-    if (i % 2 === 0) {
-        console.log("Even:", i, str[i]);
-    } else {
-        console.log("Odd:", i, str[i]);
-    }
-}
-
-
-// ---
-
-// 10. Replace Even Index Positions with Spaces
-
-// Theory
-
-// Characters at:
-
-// 0
-
-// 2
-
-// 4
-
-// 6
-
-
-// are replaced with spaces.
-
-// Code
-
-// let str = "KRISHNA";
-// let result = "";
-
-// for (let i = 0; i < str.length; i++) {
-
-//     if (i % 2 === 0) {
-//         result += " ";
-//     } else {
-//         result += str[i];
-//     }
-// }
-
-// console.log(result);
-
-
-// ---
-
-// 11. Zero-Based Indexing in JavaScript
-
-// Theory
-
-// JavaScript strings start indexing from 0.
-
-// Code
-
-// let str = "KRISHNA";
-
-// console.log(str[0]);
-// console.log(str[1]);
-// console.log(str[2]);
-
-
-// ---
-
-// 12. Print Characters from Even Index Positions
-
-// Theory
-
-// Only characters whose indexes are divisible by 2 are printed.
+// // Each loop increases string length.
 
 // // Code
+
+// let str8 = "KRISHNA";
+// let result6 = "";   
+// for (let i = 0; i < str8.length; i++) {
+
+//     console.log(str8.substring(0, i + 1));
+// }
+
+
+// // ---
+
+// // 7. Detect Vowels and Replace with *
+
+// // Theory
+
+// // Check every character:
+
+// // If vowel → replace with *
+
+// // Else → keep original character
+
+
+// // Code
+
+// let str7 = "LEELA,KRISHNA";
+// let result7 = "";
+
+// for (let i = 0; i < str7.length; i++) {
+
+//     let ch = str7[i];
+
+//     if (ch=="A"||ch=="E"||ch=="I"||ch=="O"||ch=="U") {
+//         result7 += "*";
+//     } else {
+//         result7 += ch;
+//     }
+// }
+// console.log(result7);
+
+
+// // ---
+
+// // 8. Replace Vowels with Spaces
+
+// // Theory
+
+// // Vowels are replaced using spaces instead of symbols.
+
+// // Code
+
+// let str6 = "KRISHNA";
+// let result8 = "";
+
+// for (let i = 0; i < str6.length; i++) {
+
+//     let ch = str6[i];
+
+//     if ("AEIOUaeiou".includes(ch)) {
+//         result8 += " ";
+//     } else {
+//         result8 += ch;
+//     }
+// }
+
+// console.log(result8);
+
+
+// // ---
+
+// // 9. Even and Odd Index Logic
+
+// // Theory
+
+// // JavaScript indexes start from 0.
+
+// // Even index → divisible by 2
+
+// // Odd index → not divisible by 2
+
+
+// // Code
+
+// let str5= "KRISHNA";
+
+// for (let i = 0; i < str5.length; i++) {
+
+//     if (i % 2 === 0) {
+//         console.log("Even:", i, str5[i]);
+//     } else {
+//         console.log("Odd:", i, str5[i]);
+//     }
+// }
+
+
+// // ---
+
+// // 10. Replace Even Index Positions with Spaces
+
+// // Theory
+
+// // Characters at:
+
+// // 0
+
+// // 2
+
+// // 4
+
+// // 6
+
+
+// // are replaced with spaces.
+
+// // Code
+
+// let str4 = "KRISHNA";
+// let result9 = "";
+
+// for (let i = 0; i < str4.length; i++) {
+
+//     if (i % 2 === 0) {
+//         result9 += " ";
+//     } else {
+//         result9 += str4[i];
+//     }
+// }
+
+// console.log(result9);
+
+
+// // ---
+
+// // 11. Zero-Based Indexing in JavaScript
+
+// // Theory
+
+// // JavaScript strings start indexing from 0.
+
+// // Code
+
+// let str3 = "KRISHNA";
+
+// console.log(str3[0]);
+// console.log(str3[1]);
+// console.log(str3[2]);
+
+
+// // ---
+
+// // 12. Print Characters from Even Index Positions
+
+// // Theory
+
+// // Only characters whose indexes are divisible by 2 are printed.
+
+// // // Code
 
 // let str = "KRISHNA";
 
@@ -348,81 +348,81 @@ for (let i = 0; i < str.length; i++) {
 // }
 
 
-// ---
+// // ---
 
-// 13. Replace Indexes 2, 4, 6 with Spaces
+// // 13. Replace Indexes 2, 4, 6 with Spaces
 
-// Theory
+// // Theory
 
-// Specific indexes are checked manually.
+// // Specific indexes are checked manually.
 
-// If index matches:
+// // If index matches:
 
-// Replace with space
-
-
-// Else:
-
-// Print original character
+// // Replace with space
 
 
-// Code
+// // Else:
 
-// let str = "KRISHNA";
-// let result = "";
+// // Print original character
 
-// for (let i = 0; i < str.length; i++) {
+
+// // Code
+
+// let str1 = "KRISHNA";
+// let result11 = "";
+
+// for (let i = 0; i < str1.length; i++) {
 
 //     if (i === 2 || i === 4 || i === 6) {
-//         result += " ";
+//         result11 += " ";
 //     } else {
-//         result += str[i];
+//         result11 += str1[i];
 //     }
 // }
 
-// console.log(result);
+// console.log(result11);
 
 
-// ---
+// // ---
 
-// 14. Line-by-Line Explanation
+// // 14. Line-by-Line Explanation
 
-// Theory
+// // Theory
 
-// Each line performs a specific operation.
+// // Each line performs a specific operation.
 
-// Variable Declaration
+// // Variable Declaration
 
-// Stores data.
+// // Stores data.
 
-// Loop
+// // Loop
 
-// Traverses characters one-by-one.
+// // Traverses characters one-by-one.
 
-// Condition
+// // Condition
 
-// Checks indexes or vowels.
+// // Checks indexes or vowels.
 
-// Concatenation
+// // Concatenation
 
-// Adds characters into result string.
+// // Adds characters into result string.
 
-// Output
+// // Output
 
-// Displays final result.
+// // Displays final result.
 
-// Example Code
+// // Example Code
 
-// let str = "KRISHNA";
-// let result = "";
+// let str2 = "KRISHNA";
+// let result10= "";
 
-// for (let i = 0; i < str.length; i++) {
+// for (let i = 0; i < str2.length; i++) {
 
 //     if (i % 2 === 0) {
-//         result += " ";
+//         result10 += " ";
 //     } else {
-//         result += str[i];
+//         result10 += str2[i];
 //     }
 // }
 
-// console.log(result);
+// console.log(result10);
