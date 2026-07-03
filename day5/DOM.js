@@ -106,14 +106,3 @@
 // console.log("=== DOM Example Complete ===");
 
 
-let emp = document.getElementsByTagName("h2");
-console.log(emp);
-
-let emp2 = document.getElementById("mobile-menu");
-console.log(emp2);
-
-let emp3 = document.getElementsByClassName("text-center");
-console.log(emp3);
-
-let emp4 = document.querySelector("div p>span");
-console.log(emp4);
